@@ -3,7 +3,7 @@ header('Content-Type: text/plain');
 session_start();
 if(!isset($_SESSION['visit']))
 {
-        echo "This is the first time you're visiting this server";
+        echo "This is the first time you're visiting this server.";
         $_SESSION['visit'] = 0;
 }
 else
