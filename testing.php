@@ -7,7 +7,7 @@ if(!isset($_SESSION['visit']))
         $_SESSION['visit'] = 0;
 }
 else
-        echo "Your number of visits: ".$_SESSION['visit'];
+        echo "Your number of visits to this server: ".$_SESSION['visit'];
 
 $_SESSION['visit']++;
 
